@@ -1,0 +1,740 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  @media only screen and (min-width: 800px){
+    .headers {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      padding: 5px;
+    }
+    .optionsclp {
+      display: flex;
+      gap: 5vh;
+      margin-left: 5vh
+    }
+    .Songuu {
+      color:blue;
+    }
+    .unshaad {
+      background-color: rgb(0, 117, 212);
+      color: white;
+      border-radius: 8px;
+      width: 124px;
+      height: 37px;
+      border: none;
+    }
+    .topseach {
+      display: none;
+      border-color: #efefef;
+      border-width: 1px;
+      border-style: solid;
+    }
+    .unshaad:hover + .topseach{
+      background-color: whitesmoke;
+      color: grey;
+      border-radius: 8px;
+      width: 124px;
+      height: 37px;
+      border: none;
+      display: list-item;
+    }
+    .headerleft {
+      display: flex ;
+      justify-content: center;
+      align-items: center;
+      gap:20px;
+   
+    
+    }
+    .headerstyle {
+      display: flex;
+      height: 65px;
+      background-color: aliceblue;
+      position: sticky;
+      top: 0;
+      left: 0;
+      z-index: 999;
+      justify-content: space-between;
+    }
+    .Lemonade {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .main {
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      flex-direction:column;
+      width: 100%;
+    }
+    .secmain {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        width: 1184px;
+        gap: 50px;
+    }
+    .l45 {
+      display: flex;
+    }
+    .CenterNotYellow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: yellow;
+      padding: 10px;
+      border-top-left-radius: 7px;
+      border-bottom-left-radius: 7px;
+      width: 100px;
+    }
+    .CenterNot {
+      background-color: rgb(225, 235, 235);
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      border-top-right-radius: 7px;
+      border-bottom-right-radius: 7px;
+      width: 80%;
+    }
+    .feed{
+        border-bottom-left-radius:10px;
+        border-bottom-right-radius:10px;
+        width: 100%;
+        background-color: white;
+        border-width: 1px;
+        border-color: #efefef;
+        border-style: solid;
+    }
+    .Info {
+        padding: 10px;
+        ;
+    }
+    l47 {
+      border-color: grey;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 10px;
+      width: 70px;
+      height: 12px;
+      border-color: #efefef;
+    }
+    l58{
+      border-color: #efefef;
+    }
+    .feedsec {
+        width: 100%;
+        background-color: white;
+        border-top-width: 1px;
+        border-color: #efefef;
+        border-style: solid;
+    }
+    .middler {
+      width: 100%;
+      background-color: white;
+      border-top-width: 1px;
+      border-color: #efefef;
+      border-style: solid;  
+    }
+    .mnimgl {
+      background-image: url(https://dash-api.yld.mn/api/image/e2bf93fa-56ec-4a7b-849d-23329f654d2b);
+      height:400px ;
+      width:100% ;
+      border-radius: 10px;
+      border-color: grey;
+      border-width: 5px;
+      background-size: cover;
+      background-repeat:no-repeat ;
+      background-position: center;
+      position: relative;
+    }
+    .overlay {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: black;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+      border-radius: 10px;
+    }
+    .mnimgl:hover .overlay{
+      opacity: 0.5;
+    }
+    .toyato {
+      background-image: url(https://dash-api.yld.mn/api/image/e651e1aa-379a-44e2-a08e-9815ed22a521);
+      width: 100%;
+      height:287px ;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      background-size: cover;
+      background-repeat:no-repeat ;
+      background-position: center;
+      position: relative;
+    }
+    .toyato:hover .overlay {
+      opacity: 0.5;
+    }
+    
+    
+    
+    
+    
+    .rowtw {
+      display: flex;
+      justify-content: center;
+      margin: top 10px;
+      gap: 10px;
+      padding: 25px;
+      width: 90vw;
+    }
+    
+    .tovhim {
+      background-color: black;
+      border-radius: 6px;
+      height: 380px;
+      width: 25%;
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+    }
+    .woman {
+      background-image: url(https://dash-api.yld.mn/api/image/401099fb-3b08-436d-8317-748b4332add4);
+      height: 380px;
+      width: 25%;
+      position: relative;
+      background-size: cover;
+      background-repeat:no-repeat ;
+      background-position: center;
+      border-radius: 6px;
+    }
+    .woman:hover .overlay{
+      opacity: 0.5;
+    }
+    .midfeed {
+      height: 380px;
+      width: 25%;
+      border-color: #efefef;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 6px;
+    }
+    .typest {
+      color: white;
+    }
+    .greytp {
+      color:grey;
+    }
+    .scroll {
+      overflow: scroll;
+      width: 348px;
+      height: 318px;
+      margin-top: 10px;
+      scrollbar-color: green;
+      padding: 2px;
+    }
+    .bar {
+      display: flex;
+      gap: 10px;width: 100vw;
+      flex-direction: column;
+    }
+    
+    
+    
+    .blueback3 {
+      width: 67vw;
+      height: 309px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      background-color: blue;
+      border-radius: 10px;
+    }
+    .innerback {
+      width: 80%;
+      height: 230px;
+      background-color: white;
+      border-radius: 10px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .inpt {
+      /* border-color: blue; */
+      /* border-style: solid;
+      border-width: 2px;
+      border-radius: 2px; */
+      border: none;
+      outline: none;
+    }
+    .descdetail {
+      background-color: blue;
+      color: white;
+      border-radius: 2px;
+    }
+    
+    
+    
+    .smallpic {
+      background-image: url(https://dash-api.yld.mn/api/image/e2bf93fa-56ec-4a7b-849d-23329f654d2b);
+      width: 300px;
+      height: 188px;
+      background-size:contain;
+    }
+    .whtborder {
+      border-color: #efefef;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 5px;
+    }
+    .row {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      gap: 50px;
+      width: 1180px;
+      justify-content: space-between;
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .ads  {
+      background-image: url(https://dash-api.yld.mn/api/image/b5781d4a-1da1-4f15-a41b-a3fed0ee9d9a);
+      width: 380px;
+      height: 265px;
+      position: sticky;
+      top: 0;
+      background-size: contain;
+    }
+    .lowerfeed {
+     background-image: url(./capsul.webp);
+      width: 500px;
+      height: 222px;
+      background-size:cover;
+    }
+    .horizontal-dash {
+      border-bottom: 1px dotted black;
+      width: 100%;
+    }
+    .endpanel {
+      background-color: #0040d4;
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+      justify-content: space-evenly;
+      margin-top: 50px;
+    }
+    .headerst {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      padding: 5px;
+      margin: 5px;
+    }
+    .l283{
+      color: white;
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .l282 {
+      display: flex;
+      gap: 5%;
+    }
+    .option {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      display: none;
+    }
+    .bar {
+      display: flex;
+      gap: 10px;
+      width: 80vw;
+      justify-content: center;
+      flex-direction: row;
+    }
+    .innerbar {
+      display: flex;
+      width: 30%;
+      flex-direction: column;
+    }
+  }
+   
+   
+   
+   
+   
+  @media only screen and (max-width: 799px){
+    .headers {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      padding: 5px;
+    }
+    .Songuu {
+      color:blue;
+    }
+    .unshaad {
+      background-color: rgb(0, 117, 212);
+      color: white;
+      border-radius: 8px;
+      width: 124px;
+      height: 37px;
+      border: none;
+    }
+    .topseach {
+      display: none;
+      border-color: #efefef;
+      border-width: 1px;
+      border-style: solid;
+    }
+    .unshaad:hover + .topseach{
+      background-color: whitesmoke;
+      color: grey;
+      border-radius: 8px;
+      width: 124px;
+      height: 37px;
+      border: none;
+      display: list-item;
+    }
+    .headerleft {
+      display: flex ;
+      justify-content: center;
+      align-items: center;
+      gap:20px;
+      display: none;
+    }
+    .option {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .optionsclp {
+      display: flex;
+      gap: 5vh;
+      margin-left: 5vh;
+      display: none;
+    }
+    .headerstyle {
+      display: flex;
+      height: 65px;
+      background-color: aliceblue;
+      position: sticky;
+      top: 0;
+      left: 0;
+      z-index: 999;
+      justify-content: space-between;
+    }
+    .Lemonade {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+    }
+    .main {
+      margin-top: 50px;
+      display: flex;
+      align-items: center;
+      flex-direction:column;
+      width: 100%;
+    }
+    .secmain {
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .l45 {
+      display: flex;
+      width: 60%;
+    }
+    .CenterNotYellow {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: yellow;
+      padding: 10px;
+      border-top-left-radius: 7px;
+      border-bottom-left-radius: 7px;
+      width: 100px;
+    }
+    .CenterNot {
+      background-color: rgb(225, 235, 235);
+      padding: 10px;
+      display: flex;
+      align-items: center;
+      border-top-right-radius: 7px;
+      border-bottom-right-radius: 7px;
+      width: 80%;
+    }
+    .feed{
+        border-bottom-left-radius:10px;
+        border-bottom-right-radius:10px;
+        width: 100%;
+        background-color: white;
+        border-width: 1px;
+        border-color: #efefef;
+        border-style: solid;
+    }
+    .Info {
+        padding: 5px;
+    }
+    l47 {
+      border-color: grey;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 10px;
+      border-color: #efefef;
+    }
+    l58{
+      border-color: #efefef;
+    }
+    .feedsec {
+        width: 100%;
+        background-color: white;
+        border-top-width: 1px;
+        border-color: #efefef;
+        border-style: solid;
+    }
+    .middler {
+      width: 100%;
+      background-color: white;
+      border-top-width: 1px;
+      border-color: #efefef;
+      border-style: solid;  
+    }
+    .mnimgl {
+      background-image: url(https://dash-api.yld.mn/api/image/e2bf93fa-56ec-4a7b-849d-23329f654d2b);
+      height:400px ;
+      width:100% ;
+      border-radius: 10px;
+      border-color: grey;
+      border-width: 5px;
+      background-size: cover;
+      background-repeat:no-repeat ;
+      background-position: center;
+      position: relative;
+    }
+    .overlay {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: black;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+      border-radius: 10px;
+    }
+    .mnimgl:hover .overlay{
+      opacity: 0.5;
+    }
+    .toyato {
+      background-image: url(https://dash-api.yld.mn/api/image/e651e1aa-379a-44e2-a08e-9815ed22a521);
+      width: 100%;
+      height:287px ;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+      background-size: cover;
+      background-repeat:no-repeat ;
+      background-position: center;
+      position: relative;
+    }
+    .toyato:hover .overlay {
+      opacity: 0.5;
+    }
+    
+    
+    
+    
+    
+    .rowtw {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 100px;
+      gap: 10px;
+      padding: 25px;
+      width: 90vw;
+    }
+    
+    .tovhim {
+      background-color: black;
+      border-radius: 6px;
+      height: 380px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      padding: 15px;
+    }
+    .woman {
+      background-image: url(https://dash-api.yld.mn/api/image/401099fb-3b08-436d-8317-748b4332add4);
+      height: 380px;
+      width: 100%;
+      position: relative;
+      background-size: cover;
+      background-repeat:no-repeat ;
+      background-position: center;
+      border-radius: 6px;
+    }
+    .woman:hover .overlay{
+      opacity: 0.5;
+    }
+    .midfeed {
+      height: 380px;
+      width: 100%;
+      border-color: #efefef;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 6px;
+    }
+    .typest {
+      color: white;
+    }
+    .greytp {
+      color:grey;
+    }
+    .scroll {
+      overflow: scroll;
+      width: 100%;
+      height: 318px;
+      margin-top: 10px;
+      scrollbar-color: green;
+      padding: 2px;
+    }
+    .blueback3 {
+      width: 70vw;
+      height: 309px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      background-color: blue;
+      border-radius: 10px;
+    }
+    .innerback {
+      width: 80%;
+      height: 230px;
+      background-color: white;
+      border-radius: 10px;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .inpt {
+      /* border-color: blue; */
+      /* border-style: solid;
+      border-width: 2px;
+      border-radius: 2px; */
+      border: none;
+      outline: none;
+    }
+    .descdetail {
+      background-color: blue;
+      color: white;
+      border-radius: 2px;
+    }
+    
+    
+    
+    .smallpic {
+      background-image: url(https://dash-api.yld.mn/api/image/e2bf93fa-56ec-4a7b-849d-23329f654d2b);
+      width: 300px;
+      height: 188px;
+      background-size:contain;
+    }
+    .whtborder {
+      border-color: #efefef;
+      border-width: 1px;
+      border-style: solid;
+      border-radius: 5px;
+    }
+    .row {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 50px;
+      gap: 100px;
+      width: 100%;
+      justify-content: space-between;
+    }
+    .column {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+    .ads  {
+      background-image: url(https://dash-api.yld.mn/api/image/b5781d4a-1da1-4f15-a41b-a3fed0ee9d9a);
+      width: 265px;
+      height: 265px;
+      position: sticky;
+      top: 0;
+      background-size: contain;
+    }
+    .lowerfeed {
+      background-image: url(https://dash-api.yld.mn/api/image/e2bf93fa-56ec-4a7b-849d-23329f654d2b);
+      width: 100%;
+      height: 222px;
+      background-size: cover;
+    }
+    .horizontal-dash {
+      border-bottom: 1px dotted black;
+      width: 100%;
+    }
+    .endpanel {
+      background-color: #0040d4;
+      display: flex;
+      flex-direction: column;
+      height: 400px;
+      justify-content: space-evenly;
+      margin-top: 50px;
+    }
+    .headerst {
+      justify-content: center;
+      align-items: center;
+      display: flex;
+      padding: 5px;
+      margin: 5px;
+    }
+    .l283{
+      color: white;
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+    }
+    .l282 {
+      display: flex;
+      gap: 5%;
+    }
+    .bar {
+      display: flex;
+      gap: 10px;
+      width: 100vw;
+      justify-content: space-around;
+      flex-direction: column;
+    }
+    .innerbar {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+    .ahh{
+      font-size: 20px;
+      color: grey;
+    }
+  }
